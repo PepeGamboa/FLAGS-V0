@@ -294,12 +294,11 @@ const countries: Country[] = [
     currency: "Yuan (¥)",
     founded: "1949",
     writer: {
-      name: "Lu Xun",
-      profession: "Escritor y ensayista",
-      quote:
-        "La esperanza es como un sendero en el campo: originalmente no había sendero, pero cuando muchas personas caminan por él, se convierte en un sendero.",
-      period: "1881-1936",
-      photo: "/images/autores/lu_xun.jpg",
+      name: "Confucio",
+      profession: "Filósofo y pensador",
+      quote: "Elige un trabajo que te guste y no tendrás que trabajar ni un día de tu vida.",
+      period: "551 a.C. - 479 a.C.",
+      photo: "/images/autores/confucio.jpg",
     },
   },
   {
@@ -312,11 +311,11 @@ const countries: Country[] = [
     currency: "Euro (€)",
     founded: "1821",
     writer: {
-      name: "Nikos Kazantzakis",
-      profession: "Novelista y filósofo",
-      quote: "No tengo miedo de nada. No espero nada. Soy libre.",
-      period: "1883-1957",
-      photo: "/images/autores/kazantzakis.jpg",
+      name: "Sócrates",
+      profession: "Filósofo",
+      quote: "Solo sé que no sé nada.",
+      period: "470 a.C. - 399 a.C.",
+      photo: "/images/autores/socrates.jpg",
     },
   },
   {
@@ -454,7 +453,7 @@ export default function CountriesApp() {
 
 /* FONDO DE BIBLIOTECA MÁS NÍTIDO */
 .library-background {
-  background-image: url('/modern-library-background.jpg');
+  background-image: url('/FLAGS-V0/modern-library-background.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -482,7 +481,7 @@ export default function CountriesApp() {
 
 /* FONDO MÁGICO PARA EL HERO */
 .hero-section {
-  background-image: url('/magical-book-background.jpg');
+  background-image: url('/FLAGS-V0/magical-book-background.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -923,13 +922,13 @@ export default function CountriesApp() {
                                 <div className="flex flex-col items-center mb-4">
                                   <div className="relative">
                                     <img
-                                      src={country.writer.photo || "/placeholder.svg"}
+                                      src={country.writer.photo ? `/FLAGS-V0${country.writer.photo}` : "/FLAGS-V0/placeholder.svg"}
                                       alt={country.writer.name}
                                       className="author-photo w-40 h-40 rounded-full object-cover border-4 border-amber-200 shadow-lg mb-3"
                                       crossOrigin="anonymous"
                                       onError={(e) => {
                                         const target = e.target as HTMLImageElement
-                                        target.src = "/placeholder.svg?height=400&width=400"
+                                        target.src = "/FLAGS-V0/placeholder.svg?height=400&width=400"
                                       }}
                                     />
                                   </div>
@@ -1190,7 +1189,7 @@ export default function CountriesApp() {
           <div className="mt-8 opacity-20">
             <div className="world-map-container">
               <img
-                src="/world-map-books-hd.png"
+                src="/FLAGS-V0/world-map-books-hd.png"
                 alt="Mapamundi decorativo"
                 className="world-map-image max-h-32 opacity-50"
               />
