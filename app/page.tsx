@@ -41,8 +41,7 @@ const countries: Country[] = [
       profession: "Novelista, poeta y dramaturgo",
       quote: "El que lee mucho y anda mucho, ve mucho y sabe mucho.",
       period: "1547-1616",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Cervantes_J%C3%A1uregui.jpg/400px-Cervantes_J%C3%A1uregui.jpg",
+      photo: "/images/autores/cervantes.jpg",
     },
   },
   {
@@ -60,8 +59,7 @@ const countries: Country[] = [
       quote:
         "El futuro tiene muchos nombres. Para los débiles es lo inalcanzable. Para los temerosos, lo desconocido. Para los valientes, la oportunidad.",
       period: "1802-1885",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg/400px-Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg",
+      photo: "/images/autores/victor_hugo.jpg",
     },
   },
   {
@@ -78,7 +76,7 @@ const countries: Country[] = [
       profession: "Poeta",
       quote: "El amor mueve el sol y las demás estrellas.",
       period: "1265-1321",
-      photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Dante-alighieri.jpg/400px-Dante-alighieri.jpg",
+      photo: "/images/autores/dante.jpg",
     },
   },
   {
@@ -95,8 +93,7 @@ const countries: Country[] = [
       profession: "Poeta y dramaturgo",
       quote: "Lo que no se empieza hoy, nunca se termina mañana.",
       period: "1749-1832",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Goethe_%28Stieler_1828%29.jpg/400px-Goethe_%28Stieler_1828%29.jpg",
+      photo: "/images/autores/goethe.jpg",
     },
   },
   {
@@ -113,7 +110,7 @@ const countries: Country[] = [
       profession: "Dramaturgo y poeta",
       quote: "Ser o no ser, esa es la cuestión.",
       period: "1564-1616",
-      photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/400px-Shakespeare.jpg",
+      photo: "/images/autores/shakespeare.jpg",
     },
   },
   {
@@ -130,8 +127,7 @@ const countries: Country[] = [
       profession: "Novelista y filósofo",
       quote: "Todas las familias felices se parecen, pero cada familia infeliz es infeliz a su manera.",
       period: "1828-1910",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg/400px-L.N.Tolstoy_Prokudin-Gorsky.jpg",
+      photo: "/images/autores/tolstoi.jpg",
     },
   },
   {
@@ -149,8 +145,7 @@ const countries: Country[] = [
       quote:
         "La belleza es algo terrible y espantoso. Terrible porque es indefinible, y no se puede definir porque Dios no puso más que enigmas.",
       period: "1925-1970",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Yukio_Mishima_1956.jpg/400px-Yukio_Mishima_1956.jpg",
+      photo: "/images/autores/mishima.jpg",
     },
   },
   {
@@ -167,8 +162,7 @@ const countries: Country[] = [
       profession: "Novelista",
       quote: "Cuando quieres realmente una cosa, todo el universo conspira para ayudarte a conseguirla.",
       period: "1947-presente",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Paulo_Coelho_nrkbeta.jpg/400px-Paulo_Coelho_nrkbeta.jpg",
+      photo: "/images/autores/paulo_coelho.jpg",
     },
   },
   {
@@ -185,7 +179,7 @@ const countries: Country[] = [
       profession: "Poeta y ensayista",
       quote: "Siempre imaginé que el Paraíso sería algún tipo de biblioteca.",
       period: "1899-1986",
-      photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Borges_1951.jpg/400px-Borges_1951.jpg",
+      photo: "/images/autores/borges.jpg",
     },
   },
   {
@@ -202,8 +196,7 @@ const countries: Country[] = [
       profession: "Novelista, periodista",
       quote: "La vida no es la que uno vivió, sino la que uno recuerda y cómo la recuerda para contarla.",
       period: "1927-2014",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Gabriel_Garc%C3%ADa_M%C3%A1rquez.jpg/400px-Gabriel_Garc%C3%ADa_M%C3%A1rquez.jpg",
+      photo: "/images/autores/garcia_marquez.jpg",
     },
   },
   {
@@ -220,8 +213,7 @@ const countries: Country[] = [
       profession: "Poeta y filósofo",
       quote: "No llores porque ya se terminó, sonríe porque sucedió.",
       period: "1861-1941",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rabindranath_Tagore_in_1909.jpg/400px-Rabindranath_Tagore_in_1909.jpg",
+      photo: "/images/autores/tagore.jpg",
     },
   },
   {
@@ -238,8 +230,7 @@ const countries: Country[] = [
       profession: "Poeta y diplomático",
       quote: "Podrán cortar todas las flores, pero no podrán detener la primavera.",
       period: "1904-1973",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Pablo_Neruda_1963.jpg/400px-Pablo_Neruda_1963.jpg",
+      photo: "/images/autores/neruda.jpg",
     },
   },
   {
@@ -256,7 +247,7 @@ const countries: Country[] = [
       profession: "Dramaturgo",
       quote: "La mayoría tiene la fuerza, pero no el derecho.",
       period: "1828-1906",
-      photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ibsen_by_Olrik.jpg/400px-Ibsen_by_Olrik.jpg",
+      photo: "/images/autores/ibsen.jpg",
     },
   },
   {
@@ -273,8 +264,7 @@ const countries: Country[] = [
       profession: "Novelista",
       quote: "Hay una fuerza motriz más poderosa que el vapor, la electricidad y la energía atómica: la voluntad.",
       period: "1858-1940",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Selma_Lagerl%C3%B6f_1909.jpg/400px-Selma_Lagerl%C3%B6f_1909.jpg",
+      photo: "/images/autores/selma_lagerlof.jpg",
     },
   },
   {
@@ -291,8 +281,7 @@ const countries: Country[] = [
       profession: "Novelista",
       quote: "La vida es un misterio que debe ser vivido, no un problema que debe ser resuelto.",
       period: "1912-1990",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Patrick_White_1973.jpg/400px-Patrick_White_1973.jpg",
+      photo: "/images/autores/patrick_white.jpg",
     },
   },
   {
@@ -310,7 +299,7 @@ const countries: Country[] = [
       quote:
         "La esperanza es como un sendero en el campo: originalmente no había sendero, pero cuando muchas personas caminan por él, se convierte en un sendero.",
       period: "1881-1936",
-      photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Lu_Xun_1930.jpg/400px-Lu_Xun_1930.jpg",
+      photo: "/images/autores/lu_xun.jpg",
     },
   },
   {
@@ -327,8 +316,7 @@ const countries: Country[] = [
       profession: "Novelista y filósofo",
       quote: "No tengo miedo de nada. No espero nada. Soy libre.",
       period: "1883-1957",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Nikos_Kazantzakis.jpg/400px-Nikos_Kazantzakis.jpg",
+      photo: "/images/autores/kazantzakis.jpg",
     },
   },
   {
@@ -345,7 +333,7 @@ const countries: Country[] = [
       profession: "Escritor",
       quote: "Un libro debe ser la hacha que rompa el mar helado que hay dentro de nosotros.",
       period: "1883-1924",
-      photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Kafka_portrait.jpg/400px-Kafka_portrait.jpg",
+      photo: "/images/autores/kafka.jpg",
     },
   },
   {
@@ -362,8 +350,7 @@ const countries: Country[] = [
       profession: "Escritora y diarista",
       quote: "A pesar de todo, creo que la gente es realmente buena de corazón.",
       period: "1929-1945",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Anne_Frank_passport_photo%2C_May_1942.jpg/400px-Anne_Frank_passport_photo%2C_May_1942.jpg",
+      photo: "/images/autores/anne_frank.jpg",
     },
   },
   {
@@ -380,8 +367,7 @@ const countries: Country[] = [
       profession: "Escritor y traductor",
       quote: "Nada está perdido si se tiene el valor de proclamar que todo está perdido y hay que empezar de nuevo.",
       period: "1914-1984",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Julio_Cort%C3%A1zar_1967.jpg/400px-Julio_Cort%C3%A1zar_1967.jpg",
+      photo: "/images/autores/cortazar.jpg",
     },
   },
 ]
@@ -781,7 +767,7 @@ export default function CountriesApp() {
       <div className="max-w-7xl mx-auto px-6 py-12">
         <div className="content-overlay">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {filteredAndSortedCountries.map((country) => {
+            {(Array.isArray(filteredAndSortedCountries) ? filteredAndSortedCountries : []).map((country) => {
               const currentState = countryStates[country.id]
 
               return (
@@ -1102,7 +1088,7 @@ export default function CountriesApp() {
               <ul className="space-y-2 text-gray-300 text-sm">
                 <li className="flex items-center gap-2">
                   <span className="w-1 h-1 bg-blue-300 rounded-full"></span>
-                  {countries.length} países incluidos
+                  {Array.isArray(countries) ? countries.length : 0} países incluidos
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1 h-1 bg-blue-300 rounded-full"></span>
@@ -1134,13 +1120,13 @@ export default function CountriesApp() {
                 Idiomas Incluidos
               </h4>
               <div className="grid grid-cols-2 gap-2 text-gray-300 text-sm">
-                {languageOptions.slice(0, 8).map((lang) => (
+                {(Array.isArray(languageOptions) ? languageOptions.slice(0, 8) : []).map((lang) => (
                   <div key={lang.value} className="flex items-center gap-2">
                     <span className="text-base">{lang.flag}</span>
                     <span className="truncate">{lang.label}</span>
                   </div>
                 ))}
-                {languageOptions.length > 8 && (
+                {Array.isArray(languageOptions) && languageOptions.length > 8 && (
                   <div className="col-span-2 text-blue-300 text-xs">+{languageOptions.length - 8} idiomas más...</div>
                 )}
               </div>
@@ -1154,15 +1140,15 @@ export default function CountriesApp() {
               </h4>
               <div className="space-y-3">
                 <div className="bg-white/10 rounded-lg p-3">
-                  <div className="text-2xl font-bold text-blue-300">{countries.length}</div>
+                  <div className="text-2xl font-bold text-blue-300">{Array.isArray(countries) ? countries.length : 0}</div>
                   <div className="text-xs text-gray-300">Países explorados</div>
                 </div>
                 <div className="bg-white/10 rounded-lg p-3">
-                  <div className="text-2xl font-bold text-green-300">{languageOptions.length}</div>
+                  <div className="text-2xl font-bold text-green-300">{Array.isArray(languageOptions) ? languageOptions.length : 0}</div>
                   <div className="text-xs text-gray-300">Idiomas diferentes</div>
                 </div>
                 <div className="bg-white/10 rounded-lg p-3">
-                  <div className="text-2xl font-bold text-purple-300">{countries.length}</div>
+                  <div className="text-2xl font-bold text-purple-300">{Array.isArray(countries) ? countries.length : 0}</div>
                   <div className="text-xs text-gray-300">Escritores destacados</div>
                 </div>
               </div>
